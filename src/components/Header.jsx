@@ -1,4 +1,4 @@
-function Header () {
+export function Header () {
     return (
         <header className="d-flex justify-between aling-center p-40">
         <div className="d-flex align-center">
@@ -20,5 +20,3 @@ function Header () {
       </header>
     );
 }
-
-export default Header

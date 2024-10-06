@@ -1,4 +1,4 @@
-function Drawer () {
+export function Drawer () {
     return (
         <div style={{ display: "none" }} className="overlay">
               <div className="drawer ">
@@ -84,4 +84,3 @@ function Drawer () {
     );
 }
 
-export default Drawer;
